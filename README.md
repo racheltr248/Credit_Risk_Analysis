@@ -21,4 +21,16 @@ Stakeholder has requested machine learning models that reduce bias in predicting
 * Original logistic regression demonstrates that the model does not do well at predicting high risk loans due to the small number of examples on which to train
 ![cm&classification_report](/images/cm%26classification_report.PNG)
 
+* RandomOverSampler resulted in drastic drop in precision for high risk loans and similar precision for low risk loans. It resulted in drastic improvement in recall for high risk loans and slight drop in recall for low risk loans. 
+![random_oversample_report](/images/random_oversample_report.PNG)
+
+* SMOTE resulted in a minimally higher precision rate for high risk loans and the same precision for low risk loans. It resulted in the same recall for high risk loans and a slight increase in recall for low risk loans.
+![smote_report](/images/smote_report.PNG)
+
+* Undersampling resulted in a slightly higher precision rate for high risk loans and the same precision for low risk loans. It resulted in the same recall for high risk loans and a slightly lower recall for low risk loans. 
+![undersample_report](/images/undersample_report.PNG)
+
+* SMOTEENN resulted in identical scores to undersampling. 
+![smoteen_report](/images/smoteen_report.PNG)
+
 ## Summary and Recommendations
